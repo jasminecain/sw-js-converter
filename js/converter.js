@@ -75,16 +75,3 @@ clearOutput.addEventListener("click", function(event) {
   // console.log("working input", enterInput);
   // console.log("working output", outPut);
 });
-
-//---------------->
-// convertBtn.addEventListener("click", function(event) {
-//   convertTemp();
-
-//   // if (celciusBtn.checked === true) {
-//   //   console.log('celciusBtn', celciusBtn);
-//   //   outPut = Math.round((enterInput.value - 32) * 5/9);
-//   // } else if (fahrenheitBtn.checked === true) {
-//   //     console.log('fahrenheitBtn', fahrenheitBtn);
-//   //     outPut = Math.round((enterInput.value * 9/5) + 32);
-//   // }
-// });
