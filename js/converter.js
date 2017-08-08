@@ -2,14 +2,12 @@ var outPut = document.getElementById("outPut");
 var enterInput = document.getElementById("enterInput");
 var convertBtn = document.getElementById("convert");
 
-
 //print to output .innerHTML
 // enterInput.addEventListener
 // document.getElementById
 // Assign a function to be executed when the button is clicked
 // This function should determine which conversion should
 // happen based on which radio button is selected.
-
 
 // T(°C) = (68°F - 32) × 5/9 = 20 °C
 // T(°F) = 20°C × 9/5 + 32 = 68 °F
@@ -45,7 +43,6 @@ enterInput.addEventListener("keyup", function(event) {
     // console.log('Input', enterInput);
   }
 });
-
 
 // if temperature > 90F / 32C convert red
 // if temperature < 32F / 0C convert blue
